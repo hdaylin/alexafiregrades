@@ -1,0 +1,4 @@
+welcome: Welcome, to fire grades. Fire  For the inspiration of real excellence.  We are going to practice our times tables. Ready?
+round: Can you tell me what  {{ numbers|join("times ") }} is?
+win: Good job!
+lose: Sorry, that's the wrong answer. {{ numbers|join("times ") }} is {{winning_numbers}}
